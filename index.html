@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fieldset form</title>
+  </head>
+  <body>
+    <form name="fieldsetf">
+      <fieldset>
+        <table width="70%">
+          <legend>User Information</legend>
+
+          <tr>
+            <td width="20%">First Name</td>
+            <td><input type="text" name="uname" /></td>
+          </tr>
+          <br /><br />
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lname" /></td>
+          </tr>
+          <tr>
+            <td>Company:</td>
+            <td><input type="text" name="company" /></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email " /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <table width="70%">
+          <legend><input type="checkbox" checked /> Phone number</legend>
+
+          <tr>
+            <td width="20%">Home:</td>
+            <td><input type="number" name="h" /></td>
+          </tr>
+          <br /><br />
+          <tr>
+            <td>Bussiness:</td>
+            <td><input type="number" name="b" /></td>
+          </tr>
+          <tr>
+            <td>Mobile :</td>
+            <td><input type="number" name="m " required /></td>
+          </tr>
+          <tr>
+            <td>Fax :</td>
+            <td><input type="number" name="f " /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" name="s" />
+              <input type="submit" name="s" value="Cancel" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
